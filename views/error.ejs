@@ -1,0 +1,30 @@
+<% include ./partials/header %>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-6 errorSection">
+
+      <div class="error-code">
+        <%= error.status %>
+      </div>
+
+      <div class="error-title">
+        <%= message %>
+      </div>
+
+
+
+    </div>
+    <div class="col-xs-2">
+      <img class="error-img" src="/images/lukecrying.jpg" alt="">
+    </div>
+
+  </div>
+  <div class="row error-desc">
+    <pre><%= error.stack %></pre>
+  </div>
+
+</div>
+
+
+<% include ./partials/footer %>

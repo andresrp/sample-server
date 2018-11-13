@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.errorSection {
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.error-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+.error-code {
+  font-size: 90px;
+  font-weight: bold;
+  color: darksalmon;
+}
+
+.error-img {
+  align-content: center;
+  width: 250px;
+  border-radius: 8px
+}
+
+.error-desc {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9f9d98;
+  color: white;
+  text-align: center;
+}
